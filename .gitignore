@@ -1,0 +1,36 @@
+# .gitignore
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.csproj.user
+
+# Logs
+*.log
+
+# Build results
+*.dll
+*.exe
+
+# Docker
+**/docker-compose.override.yml
+**/Dockerfile.*
+
+# Environment files
+.env
+.env.*
+
+# Others
+Thumbs.db
